@@ -4,11 +4,11 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  grid-gap: 24px;
+  grid-gap: 8px;
 }
 
 .cards > ul > li {
-  border: 1px solid var(--dark-color);
+  border: 32px solid var(--dark-color);
   background-color: var(--background-color);
 }
 
